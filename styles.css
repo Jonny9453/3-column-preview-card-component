@@ -55,18 +55,20 @@ p{
 }
 
 button{
-    color:hsla(0, 0%, 100%, 0.75);
+    border:solid 1px white;
+    background-color: hsl(0, 0%, 95%);
+    
     margin-top:50px;
     padding:10px 20px 10px 20px ;
     border-radius: 50px;
-    border:solid 2px white;
-    background-color:transparent;
+   
     
 }
 
+
 button:hover{
     cursor:pointer;
-    
+     background-color:transparent;
 }
 
 .button{
